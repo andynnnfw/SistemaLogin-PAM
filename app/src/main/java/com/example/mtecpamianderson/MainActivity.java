@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-    //foidd
+
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

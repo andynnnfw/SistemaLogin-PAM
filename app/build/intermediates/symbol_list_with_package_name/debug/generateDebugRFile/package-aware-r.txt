@@ -1,0 +1,23 @@
+com.example.mtecpamianderson
+color black
+color white
+drawable border
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnCriar
+id btnEntrar
+id btnSair
+id checkBox
+id edtEmail
+id edtNome
+id edtSenha
+id main
+layout activity_home
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_Mtecpamianderson
+style Theme_Mtecpamianderson
+xml backup_rules
+xml data_extraction_rules

@@ -1,0 +1,8 @@
+com.example.mtecpamianderson.app-pngs-0 C:\Users\andynnn\Desktop\atributoClass\app\build\generated\res\pngs\debug
+com.example.mtecpamianderson.app-updated_navigation_xml-1 C:\Users\andynnn\Desktop\atributoClass\app\build\generated\updated_navigation_xml\debug
+com.example.mtecpamianderson.app-packageDebugResources-2 C:\Users\andynnn\Desktop\atributoClass\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.mtecpamianderson.app-packageDebugResources-3 C:\Users\andynnn\Desktop\atributoClass\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.mtecpamianderson.app-debug-4 C:\Users\andynnn\Desktop\atributoClass\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.mtecpamianderson.app-debug-5 C:\Users\andynnn\Desktop\atributoClass\app\src\debug\res
+com.example.mtecpamianderson.app-main-6 C:\Users\andynnn\Desktop\atributoClass\app\src\main\res
+gradleHome-0 C:\Users\andynnn\.gradle

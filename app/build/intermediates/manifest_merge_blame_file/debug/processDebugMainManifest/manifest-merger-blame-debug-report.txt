@@ -23,50 +23,50 @@
 15-->[androidx.core:core:1.9.0] C:\Users\andynnn\.gradle\caches\9.4.1\transforms\4d328914af1a7dbdfe2d1a145ea97aec\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:5:5-26:19
+17-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:5:5-26:19
 18        android:allowBackup="true"
-18-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:6:9-35
+18-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.9.0] C:\Users\andynnn\.gradle\caches\9.4.1\transforms\4d328914af1a7dbdfe2d1a145ea97aec\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:7:9-65
+20-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 22-->INJECTED
 23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:8:9-54
+23-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:8:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:9:9-43
+24-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:9:9-43
 25        android:label="@string/app_name"
-25-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:10:9-41
+25-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:10:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:11:9-54
+26-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:11:9-54
 27        android:supportsRtl="true"
-27-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:12:9-35
+27-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.Mtecpamianderson" >
-29-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:13:9-54
+29-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:13:9-54
 30        <activity
-30-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:14:9-16:40
+30-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:14:9-16:40
 31            android:name="com.example.mtecpamianderson.HomeActivity"
-31-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:15:13-41
+31-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:15:13-41
 32            android:exported="false" />
-32-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:16:13-37
+32-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:16:13-37
 33        <activity
-33-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:17:9-25:20
+33-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:17:9-25:20
 34            android:name="com.example.mtecpamianderson.MainActivity"
-34-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:18:13-41
+34-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:18:13-41
 35            android:exported="true" >
-35-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:19:13-36
+35-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:19:13-36
 36            <intent-filter>
-36-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:20:13-24:29
+36-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:20:13-24:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:21:17-69
-37-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:21:25-66
+37-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:21:17-69
+37-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:21:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:23:17-77
-39-->C:\Users\andynnn\Desktop\atributoClass\app\src\main\AndroidManifest.xml:23:27-74
+39-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:23:17-77
+39-->C:\Users\andynnn\Desktop\SistemaLogin-PAM\app\src\main\AndroidManifest.xml:23:27-74
 40            </intent-filter>
 41        </activity>
 42

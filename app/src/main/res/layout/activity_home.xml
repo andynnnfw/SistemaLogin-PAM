@@ -1,34 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:background="#333232"
-    android:orientation="vertical"
     android:layout_width="match_parent"
+    android:id="@+id/main"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="30dp">
+
 
     <TextView
+        android:id="@+id/welcomeUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="home"
-        android:layout_marginTop="30dp"
-        android:textSize="48sp"
-        android:textColor="@color/white"
-        android:textStyle="bold"/>
+        android:layout_marginTop="16dp"
+        android:text="Olá, !"
+        android:textColor="#FF0000"
+        android:textSize="28sp"
+        android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Bem-vindo de volta ao seu painel."
+        android:textColor="#B0B0B0"
+        android:textSize="14sp" />
 
-        <Button android:id="@+id/btnSair"
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="24dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="2dp">
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:text="logoff"
-            android:layout_gravity="center"
-            android:padding="15dp"
-            android:backgroundTint="#F44336"
-            app:cornerRadius="5dp"/>
+            android:layout_margin="10dp"
+            android:text="Informações da Conta:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
+        <TextView
+            android:id="@+id/emailInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="Email: user@gmail.com"
+            android:textColor="#888888"
+            android:textSize="16sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvActionsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Ações Disponíveis"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <android.widget.Button
+        android:id="@+id/btnEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF0000"
+        android:text="Editar Perfil"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <android.widget.Button
+        android:id="@+id/btnAppSettings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FF0000"
+        android:text="Configurações do App"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <android.widget.Button
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#640000"
+        android:text="LOGOFF (SAIR)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
 </LinearLayout>

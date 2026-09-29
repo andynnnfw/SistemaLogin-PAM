@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,8 +14,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class HomeActivity extends AppCompatActivity {
-
-    Button btnSair;
+    private Button btnSair;
+    private TextView welcomeUser, emailInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,15 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         initComponents();
+
+        SharedPreferences preferences = getSharedPreferences("login", MODE_PRIVATE);
+
+        String nomeSalvo = preferences.getString("NomeSalvo", "Usuario");
+        String emailSalvo = preferences.getString("EmailSalvo", "Nao informado");
+
+        welcomeUser.setText(String.format("Ola, %s!", nomeSalvo));
+        emailInfo.setText(String.format("Email: %s", emailSalvo));
+
         btnSair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,5 +58,7 @@ public class HomeActivity extends AppCompatActivity {
 
     public void initComponents() {
         btnSair = findViewById(R.id.btnSair);
+        welcomeUser = findViewById(R.id.welcomeUser);
+        emailInfo = findViewById(R.id.emailInfo);
     }
 }
